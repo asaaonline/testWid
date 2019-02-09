@@ -1,6 +1,6 @@
 <?php
  
-namespace testWid\Providers;
+namespace HelloWorld\Providers;
  
  
 use Plenty\Plugin\RouteServiceProvider;
@@ -10,6 +10,6 @@ class HelloWorldRouteServiceProvider extends RouteServiceProvider
 {
     public function map(Router $router)
     {
-        $router->get('hello','testWid\Controllers\ContentController@sayHello');
+        $router->get('hello','HelloWorld\Controllers\ContentController@sayHello');
     }
 }

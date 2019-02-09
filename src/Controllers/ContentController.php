@@ -1,6 +1,6 @@
 <?php
  
-namespace testWid\Controllers;
+namespace HelloWorld\Controllers;
  
  
 use Plenty\Plugin\Controller;
@@ -10,6 +10,6 @@ class ContentController extends Controller
 {
     public function sayHello(Twig $twig):string
     {
-        return $twig->render('testWid::content.hello');
+        return $twig->render('HelloWorld::content.hello');
     }
 }
